@@ -9,8 +9,10 @@ documentation: https://github.com/brendan-duncan/image/blob/main/doc/README.md
 environment:
   sdk: '>=2.15.0 <4.0.0'
 
+publish_to: none
 dependencies:
-  archive: ^3.4.0
+  archive:
+    git: https://github.com/leecommamichael/archive
   meta: ^1.3.0
   xml: ^6.0.1
 
